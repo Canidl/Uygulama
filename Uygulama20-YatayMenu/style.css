@@ -1,0 +1,74 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.index{
+	width: 18%;
+	height: 100px;
+	display: inline-block;
+	background-color: #494545;
+	text-align: center;
+}
+.index p{
+	line-height: 60px;
+}
+.index p a{
+	text-decoration: none;
+	color: white;
+}
+
+#secmeli{
+	position: relative;
+}
+.index:hover{
+	background-color: #0db089;
+	cursor: pointer;
+}	
+#secmeli .kurslar{
+	display: none;
+	background: #f1f1f1;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	text-align: justify;
+	padding: 0;
+	list-style: none;
+}
+.kurslar a{
+	text-decoration: none;
+	color: #494545;
+}
+.kurslar li:hover a{
+	color: white;
+}
+.kurslar li{
+	padding: 10px;
+}
+.kurslar li:hover{
+	background-color: #494545;
+	
+}
+.index .paragraf{
+	text-align: center;
+	line-height: 100px;
+word-spacing: 1px;
+}
+	
+.bottom{
+	top: 100%;
+	right: 0;
+	
+}
+
+#secmeli:hover .kurslar{
+	display: block;
+}
+ul{
+	margin: 0;
+	padding: 20px;
+}
+
+	
+	
+	
+
+
